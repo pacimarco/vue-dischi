@@ -13,7 +13,7 @@
 export default {
 name: 'SingleCard',
 props:{
-    album: Array  //object dà più errori//
+    album: Object  //object dà più errori//
 }
 }
 </script>

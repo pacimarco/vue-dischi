@@ -22,8 +22,8 @@ data(){
 created(){
     axios.get('https://flynn.boolean.careers/exercises/api/array/music')
     .then(response => {
-        this.MyAlbums = response.data;
-        console.log(response.data)
+        this.MyAlbums = response.data.response;
+        console.log(response.data.response)
     })
 }
 }
