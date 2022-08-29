@@ -1,11 +1,15 @@
 <template>
-  <div class="card">
+  <div class="col">
+      <div class="card text-center bg-secondary">
       <div class="img-album">
-          <img :src="album.poster" alt="">
+          <img class="album.poster img-fluid card-img-top" :src="album.poster" alt="">
       </div>
-      <h4>{{album.title}}</h4>
-      <h6>{{album.author}}</h6>
-      <h6>{{album.year}}</h6>
+      <div class="card-body">
+          <h5 class="text-white">{{album.title}}</h5>
+      <h6 class="text-dark">{{album.author}}</h6>
+      <h6 class="text-dark">{{album.year}}</h6>
+      </div>
+  </div>
   </div>
 </template>
 
@@ -18,6 +22,6 @@ props:{
 }
 </script>
 
-<style>
+<style lang="scss">
 
 </style>

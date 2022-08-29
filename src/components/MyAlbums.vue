@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-      <SingleCard v-for="(album,index) in MyAlbums" :key="index" :album="album"/>
+  <div class="container bg-dark">
+      <div class="row row-cols-5 g-3">
+          <SingleCard v-for="(album,index) in MyAlbums" :key="index" :album="album"/>
+      </div>
   </div>
 </template>
 
