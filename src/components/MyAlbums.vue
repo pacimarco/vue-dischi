@@ -18,7 +18,7 @@ components:{
 
 data(){
     return{
-        MyAlbums:[] //error//
+        MyAlbums:[] 
     }
 },
 created(){

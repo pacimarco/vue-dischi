@@ -1,7 +1,7 @@
 <template>
   <div class="col">
       <div class="card text-center bg-secondary">
-      <div class="img-album">
+      <div class="img-album img-fluid">
           <img class="album.poster img-fluid card-img-top" :src="album.poster" alt="">
       </div>
       <div class="card-body">
@@ -17,7 +17,7 @@
 export default {
 name: 'SingleCard',
 props:{
-    album: Object  //object dà più errori//
+    album: Object  
 }
 }
 </script>
